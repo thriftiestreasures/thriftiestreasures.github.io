@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Diamonds</title>
+    <style>
+      /* Reset default styles for ul and li */
+      ul, li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      /* Style for the navigation bar */
+      nav {
+        background-color: #DC7F9B;
+        font-family: 'monospace;', sans-serif;
+        font-size: 16px;
+        text-transform: uppercase;
+        position: relative;
+        z-index: 1;
+        border-radius: 30px;
+        text-align: center;
+      }
+
+      /* Style for the navigation links */
+      nav a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        padding: 15px 20px;
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 1.5;
+        transition: background-color 0.3s ease;
+      }
+
+      /* Style for the active link */
+      nav a.active {
+        background-color: #E0B7B7;
+      }
+
+      /* Hover state for the navigation links */
+      nav a:hover {
+        background-color: #E0B7B7;
+      }
+
+      /* Align li elements in one line */
+      nav ul li {
+        display: inline-block;
+      }
+
+      /* Style for the big text in the middle */
+      .big-text {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 72px;
+        font-weight: 700;
+        color: #fff;
+        text-align: center;
+        margin-top: 150px;
+        text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+      }
+
+      /* Style for the description text */
+      .description {
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        color: #73B9EE;
+        text-align: center;
+        margin-top: 20px;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+      }
+
+      /* Style for the img */
+      .img {
+        display: block;
+        margin: 0 auto;
+        max-width: 500px;
+        margin-top: 50px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+      }
+
+      .placeholder {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  row-gap: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.placeholder > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.placeholder > div > span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  color: #73B9EE;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.placeholder > div > button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  background-color: white;
+  color: darkslategrey;
+  border-radius: 5px;
+  font-family: 'monospace;', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+    
+      .imgs{ 
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        width: 250px;
+        height: 250px;
+      }
+
+    
+
+      .heading{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 72px;
+        font-weight: 700;
+        color: #DC7F9B;
+        text-align: center;
+        text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+        border-style: groove;
+        border-radius: 30px;
+        border-color: #DC7F9B;
+      }
+      .desc{
+        text-align: center;
+        margin-top: 20px;
+        color: #DC7F9B;
+        font-family: 'Monstserrat', sans-serif;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+      }
+    .welcome{
+      text-shadow: 3px 3px 3px rgba(0, 0, 0, 1.0);
+      align-items: center;
+      color: #DC7F9B;
+      font-size: 50px;
+      float: middle;
+
+    }
+    </style>
+  </head>
+  <body style="background-color: whitesmoke;">
+    <nav>
+      <ul>
+        <li><a href="index.html">Acceuil</a></li>
+        <li><a href="conference.html">Conférence</a></li>
+        <li><a href="#">Dossier d'entreprise</a></li>
+        <li><a href="#">Action associative</a></li>
+        <li><a href="#">Thème de recherche</a></li>
+        <li><a href="siteweb.html" class="active">Site web</a></li>
+      </ul>
+    </nav>
+    <h1 class="welcome"><center>Welcome to...</center></h1>
+    <h2 class="heading">THRIFTIES TREASURES</h2>
+    <h3 class="desc">· Hand picked thrifted goodies to spice up your outfits</h3>
+    <h3 class="desc">· Shipping all over Morocco</h3>
+
+<div class="placeholder">
+  <div>
+    <span>Price : 100 DHS</span>
+    <img src="img1.jfif" class="imgs" alt="img1">
+    <button>Acheter</button>
+   
+  </div>
+  <div>
+    <span>Price : 200 DHS</span>
+    <img src="img4.jfif" class="imgs" alt="img2">
+    <button>Acheter</button>
+   
+  </div>
+  <div>
+    <span>Price : 70 DHS</span>
+    <img src="img5.jfif" class="imgs" alt="img3">
+    <button>Acheter</button>
+    
+  </div>
+  <div>
+    <span>Price : 150 DHS</span>
+    <img src="img7.jfif" class="imgs" alt="img4">
+    <button>Acheter</button>
+   
+  </div>
+  <div>
+    <span>Price : 300 DHS</span>
+    <img src="img9.jfif" class="imgs" alt="img5">
+    <button>Acheter</button>
+   
+  </div>
+  <div>
+    <span>Price : 250 DHS</span>
+    <img src="img11.jfif" class="imgs" alt="img6">
+    <button>Acheter</button>
+ 
+  </div>
+  <div>
+    <span>Price : 100 DHS</span>
+    <img src="img13.jfif" class="imgs" alt="img7">
+    <button>Acheter</button>
+ 
+  </div>
+</div>
+
+<footer>
+  <p class="description">E-commerce</p>
+  <p class="description">Copyright © 2023 DIAMONDS</p>
+</footer>
+
+
+      </body>
+
+</html>

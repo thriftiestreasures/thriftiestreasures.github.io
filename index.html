@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Diamonds</title>
+    <script src="https://kit.fontawesome.com/b470928742.js" crossorigin="anonymous"></script>
+    <style>
+      /* Reset default styles for ul and li */
+      ul, li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      /* Style for the navigation bar */
+      nav {
+        background-color: #DC7F9B;
+        font-family: 'monospace;', sans-serif;
+        font-size: 16px;
+        text-transform: uppercase;
+        position: relative;
+        z-index: 1;
+        border-radius: 30px;
+        text-align: center;
+      }
+
+      /* Style for the navigation links */
+      nav a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        padding: 15px 20px;
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 1.5;
+        transition: background-color 0.3s ease;
+      }
+
+      /* Style for the active link */
+      nav a.active {
+        background-color: #E0B7B7;
+      }
+
+      /* Hover state for the navigation links */
+      nav a:hover {
+        background-color: #E0B7B7;
+      }
+
+      /* Align li elements in one line */
+      nav ul li {
+        display: inline-block;
+      }
+
+      /* Style for the big text in the middle */
+      .big-text {
+        font-size: 72px;
+        font-weight: 700;
+        color: #73B9EE;
+        text-align: center;
+        margin-top: 150px;
+        text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+      }
+
+      /* Style for the description text */
+      .description {
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        color: #73B9EE;
+        text-align: center;
+        margin-top: 20px;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+      }
+
+      /* Style for the image */
+      .image {
+        display: block;
+        margin: 0 auto;
+        max-width: 800px;
+        margin-top: 50px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+      }
+
+      .logo{
+        width: 170px;
+      }
+      .linkedin{
+        outline: none;
+        color: #73B9EE;
+      }
+    </style>
+  </head>
+  <body style="background-color: whitesmoke;">
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Acceuil</a></li>
+        <li><a href="conference.html">Conférence</a></li>
+        <li><a href="#">Dossier d'entreprise</a></li>
+        <li><a href="#">Action associative</a></li>
+        <li><a href="#">Thème de recherche</a></li>
+        <li><a href="siteweb.html">Site web</a></li>
+      </ul>
+    </nav>
+
+    <div class="big-text">
+      DIAMONDS
+    </div>
+
+    <div class="description">
+      <img src="logo.png" class="logo">
+    </div>
+
+    <div class="description">
+      <i class="fa-solid fa-location-dot"></i>
+      ENCG-J
+    </div>
+    <div class="description">
+          <i class="fa-regular fa-envelope"></i>
+      diamondsgroupe@gmail.com
+    </div>
+
+    <div class="description">
+      <i class="fa-brands fa-linkedin"></i>
+      <ul><li><a href="https://www.linkedin.com/in/nour-el-houda-laajali-a47774239" class="linkedin">Linkedin</a></li></ul>
+    </div>
+
+    <img src="ppf.jfif" alt="ppf" class="image">
+  </body>
+</html>
